@@ -38,6 +38,7 @@ module.exports = {
       '@': resolve('src'),
       //增加styles指向src/assets/styles目录
       'styles': resolve('src/assets/styles'),
+      'common': resolve('src/common')
     }
   },
   module: {
